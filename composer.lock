@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5113725490f6e472a0590748934b4125",
+    "content-hash": "629b90fdfdc827ca9467b6ea7be26691",
     "packages": [
         {
             "name": "bitpay/php-client",
@@ -159,69 +159,6 @@
             ],
             "description": "Colored Line Formatter for Monolog",
             "time": "2015-01-07T22:12:35+00:00"
-        },
-        {
-            "name": "btcpayserver/btcpayserver-php-client",
-            "version": "v1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/btcpayserver/btcpayserver-php-client.git",
-                "reference": "2b5720b9d2996dfcc4eda546804fff8ac60c272f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/btcpayserver/btcpayserver-php-client/zipball/2b5720b9d2996dfcc4eda546804fff8ac60c272f",
-                "reference": "2b5720b9d2996dfcc4eda546804fff8ac60c272f",
-                "shasum": ""
-            },
-            "require": {
-                "ext-bcmath": "*",
-                "ext-curl": "*",
-                "ext-json": "*",
-                "ext-openssl": "*",
-                "php": ">=7.1"
-            },
-            "require-dev": {
-                "behat/behat": "2.5.*@stable",
-                "behat/mink": "1.6.1",
-                "behat/mink-extension": "1.3.*",
-                "behat/mink-goutte-driver": "1.*",
-                "behat/mink-selenium2-driver": "1.2.0",
-                "fabpot/goutte": "~1.0.4",
-                "fzaninotto/faker": "~1.4.0",
-                "mikey179/vfsstream": "~1.4.0",
-                "phpmd/phpmd": "~2.1.3",
-                "phpunit/phpunit": "~4.8.35",
-                "satooshi/php-coveralls": "~0.6.1",
-                "squizlabs/php_codesniffer": "~1.5.5",
-                "symfony/phpunit-bridge": "^4.0"
-            },
-            "suggest": {
-                "ext-gmp": "Quickest PHP math extension for doing computationally-expensive work."
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "BTCPayServer Developer Community",
-                    "homepage": "https://github.com/btcpayserver"
-                }
-            ],
-            "description": "PHP Library to work with the new cryptographically secure BTCPayServer API",
-            "homepage": "https://github.com/btcpayserver/btcpayserver-php-client",
-            "keywords": [
-                "bitcoin",
-                "btcpayserver"
-            ],
-            "time": "2019-08-17T07:20:25+00:00"
         },
         {
             "name": "bummzack/silverstripe-omnipay-ui",
@@ -509,21 +446,20 @@
         },
         {
             "name": "dcentrica/omnipay-btcpayserver",
-            "version": "dev-fixes/omnipay-tweaks",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/elliot-sawyer/omnipay-btcpayserver.git",
-                "reference": "e0889f95646df01b38f01b71c6da0e285ffdfd95"
+                "url": "https://github.com/dcentrica/omnipay-btcpayserver.git",
+                "reference": "ec217a6a0c04f420fb12c551237ded8b80b4ec79"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/elliot-sawyer/omnipay-btcpayserver/zipball/e0889f95646df01b38f01b71c6da0e285ffdfd95",
-                "reference": "e0889f95646df01b38f01b71c6da0e285ffdfd95",
+                "url": "https://api.github.com/repos/dcentrica/omnipay-btcpayserver/zipball/ec217a6a0c04f420fb12c551237ded8b80b4ec79",
+                "reference": "ec217a6a0c04f420fb12c551237ded8b80b4ec79",
                 "shasum": ""
             },
             "require": {
                 "bitpay/php-client": "dev-master",
-                "btcpayserver/btcpayserver-php-client": "~1.0.0",
                 "omnipay/common": "~3.0",
                 "php": ">=7.1"
             },
@@ -538,7 +474,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "Omnipay\\BTCPayServer\\": "src/"
+                    "Omnipay\\BTCPayServer\\": "src"
                 }
             },
             "license": [
@@ -566,9 +502,10 @@
                 "payment"
             ],
             "support": {
-                "source": "https://github.com/elliot-sawyer/omnipay-btcpayserver/tree/fixes/omnipay-tweaks"
+                "source": "https://github.com/dcentrica/omnipay-btcpayserver/tree/master",
+                "issues": "https://github.com/dcentrica/omnipay-btcpayserver/issues"
             },
-            "time": "2020-07-30T09:21:02+00:00"
+            "time": "2020-07-30T22:27:46+00:00"
         },
         {
             "name": "embed/embed",
@@ -1421,63 +1358,6 @@
                 "purchase"
             ],
             "time": "2020-06-02T05:57:19+00:00"
-        },
-        {
-            "name": "omnipay/manual",
-            "version": "v3.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/thephpleague/omnipay-manual.git",
-                "reference": "82d23772ac50b549ff65bdb3ff38a61a5de0130f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/omnipay-manual/zipball/82d23772ac50b549ff65bdb3ff38a61a5de0130f",
-                "reference": "82d23772ac50b549ff65bdb3ff38a61a5de0130f",
-                "shasum": ""
-            },
-            "require": {
-                "omnipay/common": "^2.0||^3.0"
-            },
-            "require-dev": {
-                "omnipay/tests": "^2.0||^3.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.0.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Omnipay\\Manual\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Adrian Macneil",
-                    "email": "adrian@adrianmacneil.com"
-                },
-                {
-                    "name": "Omnipay Contributors",
-                    "homepage": "https://github.com/thephpleague/omnipay-manual/contributors"
-                }
-            ],
-            "description": "Manual driver for the Omnipay payment processing library",
-            "homepage": "https://github.com/thephpleague/omnipay-manual",
-            "keywords": [
-                "gateway",
-                "manual",
-                "merchant",
-                "omnipay",
-                "pay",
-                "payment"
-            ],
-            "time": "2018-07-18T13:53:13+00:00"
         },
         {
             "name": "paragonie/random_compat",

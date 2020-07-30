@@ -11,13 +11,12 @@
         "silvershop/core": "^3.0",
         "php-http/guzzle6-adapter": "^1",
         "bummzack/silverstripe-omnipay-ui": "1.0.0-alpha1",
-        "dcentrica/omnipay-btcpayserver": "dev-fixes/omnipay-tweaks",
-        "omnipay/manual": "^3.0"
+        "dcentrica/omnipay-btcpayserver": "dev-master"
     },
     "repositories": {
         "dcentrica/omnipay-btcpayserver": {
             "type": "vcs",
-            "url": "git@github.com:elliot-sawyer/omnipay-btcpayserver.git"
+            "url": "git@github.com:dcentrica/omnipay-btcpayserver.git"
         }
     },
     "require-dev": {
