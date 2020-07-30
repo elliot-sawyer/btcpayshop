@@ -3,7 +3,7 @@
     "type": "silverstripe-recipe",
     "description": "The SilverStripe Framework Installer",
     "require": {
-        "php": ">=7.1.0",
+        "php": ">=7.4",
         "silverstripe/recipe-plugin": "^1.2",
         "silverstripe/recipe-cms": "4.5.3@stable",
         "silverstripe-themes/simple": "~3.2.0",
@@ -11,12 +11,13 @@
         "silvershop/core": "^3.0",
         "php-http/guzzle6-adapter": "^1",
         "bummzack/silverstripe-omnipay-ui": "1.0.0-alpha1",
-        "dcentrica/omnipay-btcpayserver": "*"
+        "dcentrica/omnipay-btcpayserver": "dev-fixes/omnipay-tweaks",
+        "omnipay/manual": "^3.0"
     },
     "repositories": {
         "dcentrica/omnipay-btcpayserver": {
             "type": "vcs",
-            "url": "git@github.com:dcentrica/omnipay-btcpayserver.git"
+            "url": "git@github.com:elliot-sawyer/omnipay-btcpayserver.git"
         }
     },
     "require-dev": {
