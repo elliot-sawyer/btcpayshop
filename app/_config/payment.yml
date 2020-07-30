@@ -4,3 +4,7 @@ Name: payment-manual
 SilverStripe\Omnipay\Model\Payment:
   allowed_gateways:
     - 'BTCPayServer'
+    - 'Manual'
+SilverStripe\Omnipay\GatewayInfo:
+  BTCPayServer:
+    is_offsite: true
