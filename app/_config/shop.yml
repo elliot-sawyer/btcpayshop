@@ -1,7 +1,7 @@
-SilverShop\Extension\ShopConfigExtension:
-  base_currency: 'BTC'
-SilverShop\Page\Product:
-  db:
-    BasePrice: Decimal(12,8)
-  casting:
-    Price: Decimal(12,8)
+#SilverShop\Extension\ShopConfigExtension:
+#  base_currency: 'BTC'
+#SilverShop\Page\Product:
+#  db:
+#    BasePrice: Decimal(12,8)
+#  casting:
+#    Price: Decimal(12,8)
