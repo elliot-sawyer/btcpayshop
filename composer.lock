@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "629b90fdfdc827ca9467b6ea7be26691",
+    "content-hash": "429cf62a6b59cd42f098ae421c1f2177",
     "packages": [
         {
             "name": "bitpay/php-client",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/bitpay/php-bitpay-client.git",
-                "reference": "ca7fe2c18287ea5c4134e127d9d4a786606c94e4"
+                "url": "https://github.com/btcpayserver/php-bitpay-client.git",
+                "reference": "7815bc0312f2dafb865a44239a1c328de45edb3e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bitpay/php-bitpay-client/zipball/ca7fe2c18287ea5c4134e127d9d4a786606c94e4",
-                "reference": "ca7fe2c18287ea5c4134e127d9d4a786606c94e4",
+                "url": "https://api.github.com/repos/btcpayserver/php-bitpay-client/zipball/7815bc0312f2dafb865a44239a1c328de45edb3e",
+                "reference": "7815bc0312f2dafb865a44239a1c328de45edb3e",
                 "shasum": ""
             },
             "require": {
@@ -26,8 +26,8 @@
                 "ext-json": "*",
                 "ext-openssl": "*",
                 "php": ">=5.4",
-                "symfony/config": "^2.3 || ^3.0 || ^4.0",
-                "symfony/dependency-injection": "^2.3 || ^3.0 || ^4.0"
+                "symfony/config": "^2.3 || ^3.0",
+                "symfony/dependency-injection": "^2.3 || ^3.0"
             },
             "require-dev": {
                 "behat/behat": "2.5.*@stable",
@@ -75,7 +75,6 @@
                 "bitcoin",
                 "bitpay"
             ],
-            "abandoned": "bitpay/sdk",
             "time": "2019-12-27T11:41:32+00:00"
         },
         {
@@ -5734,7 +5733,8 @@
     "stability-flags": {
         "silverstripe/recipe-cms": 0,
         "silverstripe/login-forms": 0,
-        "dcentrica/omnipay-btcpayserver": 20
+        "dcentrica/omnipay-btcpayserver": 20,
+        "bitpay/php-client": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
