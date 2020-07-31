@@ -19,7 +19,7 @@
             "type": "vcs",
             "url": "git@github.com:dcentrica/omnipay-btcpayserver.git"
         },
-        "bitpay/bitpay/php-client": {
+        "bitpay/php-client": {
             "type": "vcs",
             "url": "https://github.com/btcpayserver/php-bitpay-client.git"
         }
